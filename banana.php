@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-setookie("andy","rules");
+setcookie("andy","rules");
 if (!isset($_SESSION["bananas"])){
     $_SESSION["bananas"] = 1;
     $_SESSION["recent_bunch"] = 1;
